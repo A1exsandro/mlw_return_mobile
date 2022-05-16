@@ -4,10 +4,10 @@ import { Copyright } from '../Copyright';
 
 import { styles } from './styles';
 
-export function Options() {
+export function Option() {
     return (
         <View style={styles.container}>
-            <Copyright />
+            
         </View>
     )
 }
