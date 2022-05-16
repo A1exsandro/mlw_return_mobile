@@ -5,7 +5,7 @@ import { View } from 'react-native';
 import AppLoading from 'expo-app-loading';
 import { useFonts, Inter_400Regular, Inter_500Medium } from '@expo-google-fonts/inter';
 
-import { Widget } from './src/components/widget';
+import Widget from './src/components/Widget';
 import { theme } from './src/theme';
 
 export default function App() {
@@ -33,4 +33,3 @@ export default function App() {
     </View>
   );
 }
-// stop in time 44:39
